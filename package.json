@@ -1,7 +1,8 @@
 {
-  "name": "pr4",
-  "version": "0.1.0",
+  "name": "pr4.github.io",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "https://jiatech.github.io/pr4.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,5 +21,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.1"
-  }
+  },
+  "type": "module"
 }
