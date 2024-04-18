@@ -47,8 +47,7 @@ export default function OnBoarding() {
                     }}
                   />
                 );
-              }
-              )}
+              })}
             </div>
           </div>
         </Link>
