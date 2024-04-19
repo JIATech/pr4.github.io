@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out -b main -o \"[main]\""
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
