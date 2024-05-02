@@ -17,7 +17,7 @@
 
 .circle {
   position: relative;
-  width: 300px; /* Este es el diámetro de tu círculo */
+  width: 300px;
   height: 300px;
   margin-top: 50%;
   background: url('/fullshield.png') no-repeat center center;
@@ -55,8 +55,21 @@
   }
 }
 
+@keyframes rotacion-inversa {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
 .iconsContainer {
   animation: rotate 10s linear infinite;
+}
+
+.icon {
+  animation: rotacion-inversa 10s linear infinite;
 }
 
 .footer {

@@ -27,7 +27,7 @@ export default function OnBoarding() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/login">
+        <Link href="pr4.github.io/login">
           <div className={styles.circle}>
             <div className={styles.iconsContainer}>
               {iconPositions.map((icon) => {
@@ -35,7 +35,7 @@ export default function OnBoarding() {
                 return (
                   <Image
                     key={icon.id}
-                    src={`/${icon.id}.png`}
+                    src={`./${icon.id}.png`}
                     alt={icon.id}
                     width={100}
                     height={100}
@@ -47,8 +47,7 @@ export default function OnBoarding() {
                     }}
                   />
                 );
-              }
-              )}
+              })}
             </div>
           </div>
         </Link>
