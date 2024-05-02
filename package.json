@@ -1,8 +1,8 @@
 {
-  "name": "pr4.github.io",
+  "name": "jiacode.dev",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://jiatech.github.io/pr4.github.io",
+  "homepage": "https://jiacode.dev",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
